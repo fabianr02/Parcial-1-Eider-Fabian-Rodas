@@ -1,0 +1,37 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+  int opcion;
+
+  cout<<"\nMenu del cajero Automatico"<< endl;
+  cout<<"1. ingresar dinero"<<endl;
+  cout<<"2. retirar dinero"<<endl;
+  cout<<"3. transferir dinero"<<endl;
+  cout<<"4. actualizar cuenta bancaria"<<endl;
+  cout<<"5. pagos y recargas de servicios"<<endl;
+  cout<<"Digite una opcion: ";
+  cin>>opcion;
+
+  switch(opcion){
+    case 1:
+    cout<<"Ingresar dinero"<<endl;
+    break;
+    case 2:
+    cout<<"cantidad a retirar"<<endl;
+    break;
+    case 3:
+    cout<<"cantidad a trasferir"<<endl;
+    break;
+    case 4:
+    cout<<"actualizar cuenta bancaria"<<endl;
+    break;
+    case 5:
+    cout<<"pagar a recargar servicios"<<endl;
+  
+  }
+
+return 0 ;
+
+}
